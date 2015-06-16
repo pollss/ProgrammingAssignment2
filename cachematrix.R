@@ -3,7 +3,7 @@
 ## For this assignment, it is assumed that the matrix supplied
 ## is always invertible
 
-## Function makeCacheMatrix creates a special object,
+## Function makeCacheMatrix creates a special object
 ## that allow set and get value of the matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
          getinverse = getinverse)
 }
 
-## Function cacheSolve calculates inverse of the matrix,
+## Function cacheSolve calculates inverse of the matrix
 ## stored in the object which was created with makeCacheMatrix.
 ## Function retrieves inverse from the cache. If inverse has not
 ## been calculated, it calculates it and writes to cache.
